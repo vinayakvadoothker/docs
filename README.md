@@ -1,32 +1,11 @@
-# Mintlify Starter Kit
+# IntualAI Documentation
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+Welcome to the official documentation repository for **IntualAI**, your platform for AI-powered automation and actionable insights.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+## Project Structure
 
-### Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
-
-```
-npm i -g mintlify
-```
-
-Run the following command at the root of your documentation (where mint.json is)
-
-```
-mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+- **`docs/`**: All documentation files in `.mdx` format.
+  - **`info/`**: Informational pages like About, Careers, and Privacy Policy.
+  - **`features/`**: Guides for specific IntualAI features.
+  - **`images/`**: Static assets such as hero images and logos.
+  - **`logo/`**: Branding assets like light and dark mode logos.
